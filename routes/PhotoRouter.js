@@ -79,7 +79,7 @@ router.post('/photos/new', verifyToken, upload.single('file'), async function(re
 });
 
 //#region edit cmt
- /*start edit
+ /* start edit cmt
 router.put("/:photoId/comment/:commentId", verifyToken, async (req, res) => {
   const { photoId, commentId } = req.params;
   const { newComment } = req.body;
@@ -104,7 +104,7 @@ router.put("/:photoId/comment/:commentId", verifyToken, async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 });
-end edit */
+*/
 //#endregion
 
 
