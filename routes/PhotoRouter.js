@@ -165,7 +165,7 @@ router.delete("/:photoId", verifyToken, async (req, res) => {
 //#endregion
 
 
-//#region liet ke
+//#region liet ke người dùng có từ 2 ảnh trở lên 
 /*
 router.get("/users-with-many-photos", verifyToken, async (req, res) => {
   try {
